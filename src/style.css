@@ -19,7 +19,7 @@
 
   input[type="text"],
   input[type="email"] {
-    @apply w-full py-4 px-4 rounded;
+    @apply w-full py-4 px-4 rounded border-gray border;
   }
 
   input[type="submit"] {
@@ -27,6 +27,6 @@
   }
 
   textarea {
-    @apply w-full py-4 px-4 rounded;
+    @apply w-full py-4 px-4 rounded border-gray border;
   }
 }
